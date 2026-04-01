@@ -1,4 +1,4 @@
-# Variaáveis da pizzaria 
+# Variáveis da pizzaria 
 FRETE = 2 #Constante Fake
 pizza_sabor = input("Informe o sabor da pizza -  [frango com requeijão], [calabresa], [mussarela], [banana com chocolate]: ")
 pizza_tamanho = input("Informe o tamanho da pizza -  [pequena], [média], [grande]: ")
