@@ -1,19 +1,24 @@
 # Variáveis do Sistema Bancário
 
 idade = int(input("Informe a idade"))
-salario = float(input("Informe o salário"))
-tempo_de_trabalho = float(input("Informe o tempo de trabalho"))
+salario = int(input("Informe o salário"))
+tempo = float(input("Informe o tempo de trabalho"))
 
-#print(f" A idade do cliente é {idade}, o salário do cliente é {salario} e o tempo de trabalho é {tempo_de_trabalho}.")
+print(f"O cliente tem {idade} anos, salário de {salario} e {tempo} anos de trabalho.")
 
+# Regra Especial 1: Negação automática para menores de 18 anos.
 if idade <18:
-    print ("Você é menor de idade")
+    print ("Emprestimo negado.")
 
-elif salario >=5000:
-    print ("Empréstimo aprovado")
+#Regra Especial 2: Aprovação automática para salários maiores ou iguais a 5.000.
+elif salario >= 5000:
+    print ("Empréstimo aprovado.")
 
-elif idade >=18 and salario >=2000 and tempo_de_trabalho >=2:
-    print ("Empréstimo aprovado")
+#Critério de aprovação do empréstimo: 
+elif idade >=18 and salario >= 2000 and tempo >= 2:
+    print ("Todas as condições básicas foram antendidas, portanto, o empréstimo é aprovado.")
 
-else: 
+#Qualquer outro caso que não atenda as regras anteriores, o empréstimo é negado.
+else:
     print ("Empréstimo negado.")
+    
