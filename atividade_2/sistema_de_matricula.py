@@ -6,7 +6,7 @@ frequencia = int(input("Informe a frequência: "))
 
 # A matrícula será aprovada se a idade for >= 18, a nota for >= 6 e a frequencia for > 75%.
 
-print(f"Idade: {idade}, Nota: {nota}, Frequência: {frequencia}")
+print(f"Idade: {idade}, Nota: {nota}, Frequência: {frequencia}%")
 
 #Estruturas condicionais: 
 
